@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		464079A51EC8A0A7002DBA3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464079A41EC8A0A7002DBA3B /* AppDelegate.swift */; };
+		464079AC1EC8A0A7002DBA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464079AB1EC8A0A7002DBA3B /* Assets.xcassets */; };
+		464079AF1EC8A0A7002DBA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464079AD1EC8A0A7002DBA3B /* LaunchScreen.storyboard */; };
+		464079CD1EC8A0FE002DBA3B /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464079BE1EC8A0FE002DBA3B /* MainTableViewController.swift */; };
+		82088DF7218C7213D4AC9E08 /* Pods_JJModulizationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD744B4B18E0FEDEAFDB592D /* Pods_JJModulizationDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E76FAA51CD047C7C17F0DC3 /* Pods-JJModulizationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJModulizationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJModulizationDemo/Pods-JJModulizationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		464079A11EC8A0A7002DBA3B /* JJModulizationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJModulizationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		464079A41EC8A0A7002DBA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		464079AB1EC8A0A7002DBA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		464079AE1EC8A0A7002DBA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		464079B01EC8A0A7002DBA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464079BD1EC8A0FE002DBA3B /* JJMediator-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JJMediator-Bridging-Header.h"; sourceTree = "<group>"; };
+		464079BE1EC8A0FE002DBA3B /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		CD744B4B18E0FEDEAFDB592D /* Pods_JJModulizationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJModulizationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E67306D11E39DE6D0B063954 /* Pods-JJModulizationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJModulizationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJModulizationDemo/Pods-JJModulizationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4640799E1EC8A0A7002DBA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82088DF7218C7213D4AC9E08 /* Pods_JJModulizationDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		464079981EC8A0A7002DBA3B = {
+			isa = PBXGroup;
+			children = (
+				464079A31EC8A0A7002DBA3B /* JJModulizationDemo */,
+				464079A21EC8A0A7002DBA3B /* Products */,
+				7FC52B0D4B0B46A3594618FF /* Pods */,
+				829200B1CF28096B8BDD8F9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		464079A21EC8A0A7002DBA3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464079A11EC8A0A7002DBA3B /* JJModulizationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		464079A31EC8A0A7002DBA3B /* JJModulizationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				464079A41EC8A0A7002DBA3B /* AppDelegate.swift */,
+				464079BE1EC8A0FE002DBA3B /* MainTableViewController.swift */,
+				464079D21EC8A123002DBA3B /* Supporting Files */,
+			);
+			path = JJModulizationDemo;
+			sourceTree = "<group>";
+		};
+		464079D21EC8A123002DBA3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				464079BD1EC8A0FE002DBA3B /* JJMediator-Bridging-Header.h */,
+				464079AB1EC8A0A7002DBA3B /* Assets.xcassets */,
+				464079AD1EC8A0A7002DBA3B /* LaunchScreen.storyboard */,
+				464079B01EC8A0A7002DBA3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FC52B0D4B0B46A3594618FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E67306D11E39DE6D0B063954 /* Pods-JJModulizationDemo.debug.xcconfig */,
+				3E76FAA51CD047C7C17F0DC3 /* Pods-JJModulizationDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		829200B1CF28096B8BDD8F9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD744B4B18E0FEDEAFDB592D /* Pods_JJModulizationDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		464079A01EC8A0A7002DBA3B /* JJModulizationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464079B31EC8A0A7002DBA3B /* Build configuration list for PBXNativeTarget "JJModulizationDemo" */;
+			buildPhases = (
+				12E772ABB680B4560016BB62 /* [CP] Check Pods Manifest.lock */,
+				4640799D1EC8A0A7002DBA3B /* Sources */,
+				4640799E1EC8A0A7002DBA3B /* Frameworks */,
+				4640799F1EC8A0A7002DBA3B /* Resources */,
+				0917837AFB4BBC8F5CA54CE4 /* [CP] Embed Pods Frameworks */,
+				D980E13B957946BEF909149A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJModulizationDemo;
+			productName = JJModulizationDemo;
+			productReference = 464079A11EC8A0A7002DBA3B /* JJModulizationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		464079991EC8A0A7002DBA3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mr.JJ;
+				TargetAttributes = {
+					464079A01EC8A0A7002DBA3B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RAT87H825N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4640799C1EC8A0A7002DBA3B /* Build configuration list for PBXProject "JJModulizationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 464079981EC8A0A7002DBA3B;
+			productRefGroup = 464079A21EC8A0A7002DBA3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				464079A01EC8A0A7002DBA3B /* JJModulizationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4640799F1EC8A0A7002DBA3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464079AF1EC8A0A7002DBA3B /* LaunchScreen.storyboard in Resources */,
+				464079AC1EC8A0A7002DBA3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0917837AFB4BBC8F5CA54CE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJModulizationDemo/Pods-JJModulizationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12E772ABB680B4560016BB62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D980E13B957946BEF909149A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJModulizationDemo/Pods-JJModulizationDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4640799D1EC8A0A7002DBA3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464079A51EC8A0A7002DBA3B /* AppDelegate.swift in Sources */,
+				464079CD1EC8A0FE002DBA3B /* MainTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		464079AD1EC8A0A7002DBA3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				464079AE1EC8A0A7002DBA3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		464079B11EC8A0A7002DBA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		464079B21EC8A0A7002DBA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		464079B41EC8A0A7002DBA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67306D11E39DE6D0B063954 /* Pods-JJModulizationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RAT87H825N;
+				INFOPLIST_FILE = JJModulizationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ye.JJModulizationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JJModulizationDemo/JJMediator-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "JJMediator-Swift.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		464079B51EC8A0A7002DBA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E76FAA51CD047C7C17F0DC3 /* Pods-JJModulizationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RAT87H825N;
+				INFOPLIST_FILE = JJModulizationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ye.JJModulizationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JJModulizationDemo/JJMediator-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "JJMediator-Swift.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4640799C1EC8A0A7002DBA3B /* Build configuration list for PBXProject "JJModulizationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464079B11EC8A0A7002DBA3B /* Debug */,
+				464079B21EC8A0A7002DBA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464079B31EC8A0A7002DBA3B /* Build configuration list for PBXNativeTarget "JJModulizationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464079B41EC8A0A7002DBA3B /* Debug */,
+				464079B51EC8A0A7002DBA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 464079991EC8A0A7002DBA3B /* Project object */;
+}
